@@ -1,0 +1,38 @@
+1.NOT NULL -> COLUMNS CANNOT HAVE A NULL VALUE
+
+2.UNQUE -> ALL VALUES IN COLUMNS ARR DIFFERENT
+
+3. DEFAULT -> SETS THE DEFAULT VALUE OF A COLUMNS
+
+4. CHECK-> IT CAN LIMIT THE VALUES ALLOWED IN COLUMN
+
+EXAMPLE
+ CREATE TABLE USER (
+    id INT,
+    age INT,
+    name VARCHAR(30) NOT NULL,
+    email VARCHAR(50) UNIQUE,
+    followers INT DEFAULT 0,
+    folowing INT ,
+    CONSTRAINT age_check CHECK(age>=13)
+ );
+
+
+ ==============================================================================================================
+
+MOST IMPORTANT TYPES OF THE KEY---->
+
+
+ 1.Primary Key -> make a column unique and not null but used only for one
+ create table temp(
+    id int not null,
+    primary key(id)
+ );
+
+
+ 2.Foreign key->  prevent actions that would destroy links between tables
+  create table_temp(
+    cust_id int,
+    foreign key (cust_id) references customer(id)
+  );
+  and make er diagram

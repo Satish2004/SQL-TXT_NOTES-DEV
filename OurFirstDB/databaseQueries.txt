@@ -1,0 +1,15 @@
+CREATE DATABASE db_name;
+CREATE DATABASE IF NOT EXISTS db_name; (IF NOT EXIST MEANS-> if already exist in the system then show warning rather then it gives error);
+
+
+DROP DATABSE db_name;
+DROP DATABASE IF EXISTS db_name;(IF EXIST MEANS -> if data is already exist in schema then delete those data)
+
+
+SHOW DATABASES; show all the database
+SHOW TABLES; to show all the tables(table under the database)
+
+NOTE*->
+before using the "SHOW TABLES" 
+to use ->
+command--> USE db_name;

@@ -1,0 +1,8 @@
+Table QURIES
+
+1. create -> for create new db
+2. insert -> insert data in form of tupples
+3. update -> for update
+4. alter -> col change/ alter the schema of table
+5. turncate -> empty all the data under the table
+6. delete ->  delete all data

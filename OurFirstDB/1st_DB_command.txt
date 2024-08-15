@@ -1,0 +1,17 @@
+
+// DESCLAIMER--->  IN THIS FOLDER I CREATE A FOLDER SQL THAT I HAD COMPLETE ALL THEORY BECAUSE ALL THE QURIES HAD BEEN WRITING IN MYSQL FOR OPERATION BY SQL QUERIES
+
+
+
+(1)=>  TO create a database in sql we use
+command -> create database databa_base_name;
+                    or
+            CREATE DATABASE DATABASE_NAME;
+
+            
+
+(2)=> TO use a database -> also use for create a table which db will be you choose to create table
+command -> use databa_base_name;
+
+(3)=> TO delete(DROP) the database
+command => DROP database db_name(college);

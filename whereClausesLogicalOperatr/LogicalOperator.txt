@@ -1,0 +1,41 @@
+
+====================AND===>
+select name, age , followers 
+from user 
+where age>15 AND followers>200;
+
+o/p->
+casey 16 300
+
+=====================OR====>
+select name , age , followers from user 
+WHERE user where age>15 OR followers>20
+
+o/p 
+casey 16 300
+donald 19 200
+
+====================BETWEEN======>
+(selects for given range)
+
+ select name , age followers from user where age Between 15 to 17;
+
+
+
+
+ ========================IN ======>
+ In the IN operator we gives condition 
+
+ select name , age , followers, email
+ FROM user 
+ where email IN ("donald@gmail.com", "bov123@gmail.com" , "abc@gmail.com");
+  
+
+
+  ========================NOT ======>
+ the NOT operator  gives the opposite of IN its gives negation
+
+
+ select name , age , followers, email
+ FROM user 
+ where age NOT IN (14 , 16);

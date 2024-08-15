@@ -1,0 +1,2 @@
+where is clause to define some condition and return the specific data
+SELECT COL1 COL2 FROM TABLE_NAME WHERE (CONDITION) AGE>=18;

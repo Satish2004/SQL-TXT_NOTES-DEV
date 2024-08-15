@@ -1,0 +1,11 @@
+Limit Clause sets an upper limit on number of(tuples) row to be returned
+
+SELECT col1, col2 FROM table_name LIMIT number
+
+example--> select name ,age,followers from user
+where age>15 LIMIT 2
+
+*NOTE--> alos use without use of where
+
+example--> select anem , age, followers from user 
+LIMIT 3;

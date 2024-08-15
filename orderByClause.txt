@@ -1,0 +1,15 @@
+order by clause-->
+To sort in ASC(ascending order) and DESC(decending order)
+
+SELECT col1, col2 FROM table_name
+ORDER BY col_name(s) ASC;
+
+
+1---example--->
+
+select name , age , followers from user 
+order by followers ASC;  --> BY  DEFAULT ASCENDING ORDER MEIN HI HOTA HAI 
+
+2---exmaple--->
+select name , age ,followers from user 
+order by followers DESC;

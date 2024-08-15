@@ -1,0 +1,38 @@
+OUR FIRST CREATE table
+
+command -> create table table_name(student)(
+
+    column_name1 datatype constraint,
+    column_name2 datatype constraint,
+    column_name3 datatype constraint,
+
+);
+
+example-> when i create a table having different type of the col_name roll(INT), age(INT), name(VARCHAR(any number as per the length of the string))
+
+step(1)---->
+
+create table student(
+
+    roll-no INT,
+    age INT,
+    name VARCHAR(30)
+);
+
+
+
+
+step(2)---->
+when you insert the data to the table 
+command-> 
+INSERT INTO db_name
+VALUES
+(row1_data),
+(row2_data),
+(row3_data);
+
+
+step(3)---->
+to see the table that currently made 
+command-> select * from student
+where * ==> for all
